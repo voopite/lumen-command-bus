@@ -1,0 +1,26 @@
+{
+    "name": "voopite/lumen-command-bus",
+    "description": "Command Bus for lumen microservices archtecture",
+    "type": "library",
+    "require": {
+        "php": "8.1",
+        "laravel/lumen-framework": "9"
+    },
+    "require-dev": {
+        "php": "8.1",
+        "laravel/lumen-framework": "9"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Voopite\\LumenCommandBus\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ibson Machado",
+            "email": "ibson.machado@voopite.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
